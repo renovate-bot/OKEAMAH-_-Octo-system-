@@ -50,7 +50,7 @@
     "@alchemy/aa-accounts" "^3.14.1"
     alchemy-sdk "^3.0.0"
 
-"@alchemy/aa-core@3.18.2":
+"@alchemy/aa-core@3.18.2", "@alchemy/aa-core@^3.18.2":
   version "3.18.2"
   resolved "https://registry.yarnpkg.com/@alchemy/aa-core/-/aa-core-3.18.2.tgz#b11f189404e97132f5affab938b3d4040c99f475"
   integrity sha512-uXVpPz5tpBiARC4QCj/MAK45J09Pt3pJQpmFDiHSj4ZEcQB7ZraP2z8Bi6jLMkMDyHPjUiTeJf+aRV3Gqyeunw==
@@ -64,16 +64,6 @@
   version "3.12.3"
   resolved "https://registry.yarnpkg.com/@alchemy/aa-core/-/aa-core-3.12.3.tgz#25ddd6533f0fe0590c28eba7d0a444c4f168ea64"
   integrity sha512-nU2pvGIsWI9Wwo3aNcfke1ZJJiec5rmqkh7McTRK6G8ff1gE0yGZUBzd/73rsdWGmhBN8G5VmX0KN016+amzVQ==
-  dependencies:
-    abitype "^0.8.3"
-    eventemitter3 "^5.0.1"
-    viem "2.8.6"
-    zod "^3.22.4"
-
-"@alchemy/aa-core@^3.18.2":
-  version "3.18.2"
-  resolved "https://registry.yarnpkg.com/@alchemy/aa-core/-/aa-core-3.18.2.tgz#b11f189404e97132f5affab938b3d4040c99f475"
-  integrity sha512-uXVpPz5tpBiARC4QCj/MAK45J09Pt3pJQpmFDiHSj4ZEcQB7ZraP2z8Bi6jLMkMDyHPjUiTeJf+aRV3Gqyeunw==
   dependencies:
     abitype "^0.8.3"
     eventemitter3 "^5.0.1"
@@ -4818,9 +4808,9 @@ typescript@4.9.5:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@^5, typescript@^5.1:
-  version "5.4.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
-  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
+  version "5.5.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.4.tgz#d9852d6c82bad2d2eda4fd74a5762a8f5909e9ba"
+  integrity sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==
 
 uid-promise@1.0.0:
   version "1.0.0"
