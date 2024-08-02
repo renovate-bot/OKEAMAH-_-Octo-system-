@@ -50,7 +50,7 @@
     "@alchemy/aa-accounts" "^3.14.1"
     alchemy-sdk "^3.0.0"
 
-"@alchemy/aa-core@3.18.2":
+"@alchemy/aa-core@3.18.2", "@alchemy/aa-core@^3.18.2":
   version "3.18.2"
   resolved "https://registry.yarnpkg.com/@alchemy/aa-core/-/aa-core-3.18.2.tgz#b11f189404e97132f5affab938b3d4040c99f475"
   integrity sha512-uXVpPz5tpBiARC4QCj/MAK45J09Pt3pJQpmFDiHSj4ZEcQB7ZraP2z8Bi6jLMkMDyHPjUiTeJf+aRV3Gqyeunw==
@@ -64,16 +64,6 @@
   version "3.12.3"
   resolved "https://registry.yarnpkg.com/@alchemy/aa-core/-/aa-core-3.12.3.tgz#25ddd6533f0fe0590c28eba7d0a444c4f168ea64"
   integrity sha512-nU2pvGIsWI9Wwo3aNcfke1ZJJiec5rmqkh7McTRK6G8ff1gE0yGZUBzd/73rsdWGmhBN8G5VmX0KN016+amzVQ==
-  dependencies:
-    abitype "^0.8.3"
-    eventemitter3 "^5.0.1"
-    viem "2.8.6"
-    zod "^3.22.4"
-
-"@alchemy/aa-core@^3.18.2":
-  version "3.18.2"
-  resolved "https://registry.yarnpkg.com/@alchemy/aa-core/-/aa-core-3.18.2.tgz#b11f189404e97132f5affab938b3d4040c99f475"
-  integrity sha512-uXVpPz5tpBiARC4QCj/MAK45J09Pt3pJQpmFDiHSj4ZEcQB7ZraP2z8Bi6jLMkMDyHPjUiTeJf+aRV3Gqyeunw==
   dependencies:
     abitype "^0.8.3"
     eventemitter3 "^5.0.1"
@@ -751,10 +741,10 @@
   dependencies:
     "@tanstack/store" "^0.3.1"
 
-"@tanstack/query-core@5.28.9":
-  version "5.28.9"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.28.9.tgz#170a7a8794ab73aeffbaf711ac62126479a5d026"
-  integrity sha512-hNlfCiqZevr3GRVPXS3MhaGW5hjcxvCsIQ4q6ff7EPlvFwYZaS+0d9EIIgofnegDaU2BbCDlyURoYfRl5rmzow==
+"@tanstack/query-core@5.51.21":
+  version "5.51.21"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.51.21.tgz#a510469c6c30d3de2a8b8798e340169a4b0fd08f"
+  integrity sha512-POQxm42IUp6n89kKWF4IZi18v3fxQWFRolvBA6phNVmA8psdfB1MvDnGacCJdS+EOX12w/CyHM62z//rHmYmvw==
 
 "@tanstack/react-form@^0.19.4":
   version "0.19.5"
@@ -766,12 +756,12 @@
     decode-formdata "^0.4.0"
     rehackt "^0.0.3"
 
-"@tanstack/react-query@5.28.9":
-  version "5.28.9"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.28.9.tgz#13c2049daa5db6c3137473e279b209f76d39708e"
-  integrity sha512-vwifBkGXsydsLxFOBMe3+f8kvtDoqDRDwUNjPHVDDt+FoBetCbOWAUHgZn4k+CVeZgLmy7bx6aKeDbe3e8koOQ==
+"@tanstack/react-query@5.51.21":
+  version "5.51.21"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.51.21.tgz#cdd14677bcc809a83e01b6c38842c841ce7420af"
+  integrity sha512-Q/V81x3sAYgCsxjwOkfLXfrmoG+FmDhLeHH5okC/Bp8Aaw2c33lbEo/mMcMnkxUPVtB2FLpzHT0tq3c+OlZEbw==
   dependencies:
-    "@tanstack/query-core" "5.28.9"
+    "@tanstack/query-core" "5.51.21"
 
 "@tanstack/react-store@^0.3.1":
   version "0.3.1"
